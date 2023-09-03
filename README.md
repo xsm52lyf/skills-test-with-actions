@@ -49,7 +49,7 @@ To upload artifacts to the artifact storage, we can use an action built by GitHu
            path: public/
    ```
 
-1. Commit your change to this branch.
+1. Commit your change to this branch
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 Similar to the upload action to send artifacts to the storage, you can use another action built by GitHub to download these previously uploaded artifacts from the `build` job: [`actions/download-artifact`](https://github.com/actions/download-artifact). To save you time, we'll skip that step for this course.
